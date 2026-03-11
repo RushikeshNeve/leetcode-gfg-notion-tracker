@@ -75,14 +75,6 @@ function doPost(e) {
    - Who has access: **Anyone** (or anyone with link, based on your policy)
 5. Copy the Web App URL (`.../exec`) and paste it into extension **Options**.
 
-## Run and deploy
-
-For a complete step-by-step setup and deployment walkthrough, see [`RUN_AND_DEPLOY.md`](./RUN_AND_DEPLOY.md).
-
-## Testing
-
-For step-by-step local and end-to-end testing instructions, see [`TESTING.md`](./TESTING.md).
-
 ## Notes
 
 - LeetCode/GFG selectors may change over time and require updates.
