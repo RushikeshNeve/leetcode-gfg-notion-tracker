@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DSA Solve Logger</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>DSA Solve Logger</h2>
+
+      <div class="field">
+        <label>Save Target</label>
+        <select id="storageTarget">
+          <option value="googleSheets">Google Sheets</option>
+          <option value="notion">Notion</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Title</label>
+        <input id="title" type="text" />
+      </div>
+
+      <div class="field">
+        <label>Platform</label>
+        <input id="platform" type="text" readonly />
+      </div>
+
+      <div class="field">
+        <label>Original Difficulty</label>
+        <input id="difficulty" type="text" readonly />
+      </div>
+
+      <div class="field">
+        <label>Your Tag</label>
+        <select id="userDifficulty">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+        </select>
+      </div>
+
+      <div class="field checkbox-row">
+        <label for="needRevision">Need Revision</label>
+        <input id="needRevision" type="checkbox" />
+      </div>
+
+      <div class="field">
+        <label>Small Description / Notes</label>
+        <textarea id="notes" rows="5"></textarea>
+      </div>
+
+      <div class="field">
+        <label>Solution</label>
+        <textarea id="solution" rows="10"></textarea>
+      </div>
+
+      <button id="saveBtn">Save</button>
+      <p id="status"></p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
